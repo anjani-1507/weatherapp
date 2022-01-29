@@ -1,0 +1,106 @@
+
+/* Styling Navbar */
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 1px;
+    color: white;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(83, 82, 78);
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(90, 74, 74);
+}
+
+.pricing-header{
+    background-color: rgb(51, 105, 187);
+}
+
+.pricing-header h1 {
+    background-color: rgb(51, 105, 187);
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0px auto;
+    font-size: 562.5%;
+}
+
+.pricing-header h3 {
+    background-color: rgb(51, 105, 187);
+    font-family: 'Ubuntu', 'Montserrat', sans-serif;
+}
+
+h2{
+    background-color: rgb(51, 105, 187);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h3{
+    background-color: rgb(51, 105, 187);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    background-color: rgb(51, 105, 187);
+    font-family: sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+.row {
+    background-color: rgb(51, 105, 187);
+    margin-top: 25px;
+}
+
+.col {
+    width: 200px;
+}
+
+#profile-img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.text-center {
+    background-color: rgb(51, 105, 187);
+}
+
+footer{
+    background-color: rgba(43, 77, 129, 0.534);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.ms-3 a {
+    color: white;
+    margin-left: 4px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.ms-3 a:hover {
+    color: yellowgreen;
+    background-color: white;
+}

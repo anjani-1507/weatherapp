@@ -1,0 +1,210 @@
+
+/* Styling Whole Body */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling Video */
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Styling Navbar */
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 1px;
+    color: white;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(83, 82, 78);
+}
+
+.navbar .nav-item .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgb(90, 74, 74);
+}
+
+.error {
+    padding: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    background-color: white;
+    width: fit-content;
+    margin: 0px auto 0px auto;
+    border: white;
+    border-radius: 5px;
+}
+
+/* Styling Search-Bar */
+.search-bar {
+    background-color: rgba(40, 99, 150, 0.877);
+    margin: 5px auto 10px auto;
+    border-radius: 10px;
+    width: 350px;
+    height: 85vh;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.search-bar input {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.search-bar button {
+    border: none;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 248, 220, 0);
+    border-radius: 70px;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+#hr-above {
+    margin: 8px 0px 8px 0px;
+    border: 1px solid;
+}
+
+
+
+/* City Detail Section and Date Details */
+
+.search-bar #city-name {
+    color: white;
+    display: inline-block;
+    width: 350px;
+    overflow: hidden;
+    font-family: 'Fugaz One', 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+#city-name img {
+    position: relative;
+    margin: auto 2px 5px 0px;
+}
+
+#hr-below {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 2px auto 8px auto;
+    border-top: 5px dotted black;
+    width: 6%;
+}
+
+#day-date {
+    font-family: 'Fugaz One', 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+
+
+/* Weather Details Section */
+
+.weather-details {
+    margin: auto;
+    font-family: 'Fugaz One', 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.weather-details h1 {
+    margin: 2px auto 2px auto;
+    font-size: 60px;
+    text-align: center;
+    padding: auto 2px auto 2px;
+}
+
+#hr-below-temp {
+    background-color: rgba(238, 229, 229, 0);
+    margin: 8px auto 5px auto;
+    border-top: 5px dotted rgb(20, 6, 6);
+    width: 20%;
+}
+
+.weather-details h5 {
+    font-weight: 30;
+    font-size: 25px;
+    color: white;
+    margin: 5px auto 10px auto;
+    padding: 5px;
+}
+
+/* Styling Additional Weather Details */
+.weather-details .more-data {
+    position: absolute;
+    bottom: 0;
+    width: 360px;
+    margin: 10px auto 10px auto;
+}
+
+
+.search-bar .more-data .col {
+    font-family: 'Fugaz One', 'Ubuntu', sans-serif;
+    display: inline-block;              
+    shape-outside: border-box;
+    width: 160px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.search-bar .more-data .col h3 {
+    font-size: 17px;
+    font-weight: 0;
+}
+
+.feels-like {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.humidity {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+

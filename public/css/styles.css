@@ -72,7 +72,8 @@ body{
 
 /* Styling Search-Bar */
 .search-bar {
-    background-color: rgba(40, 99, 150, 0.877);
+    /* background-color: rgba(40, 99, 150, 0.877); */
+    background: url('/public/images/nature-g83619e2d6_1920.jpg');
     margin: 5px auto 10px auto;
     border-radius: 10px;
     width: 350px;
@@ -82,11 +83,18 @@ body{
     align-items: center;
 }
 
-.search-bar input {
+.d-flex {
+    background-color: white;
+    width: 90%;
     border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 0px;
+    margin: 10px auto 0px auto;
+}
+
+.search-bar input {
+    width: 95%;
+    border: none;
+    border-radius: 15px 5px 5px 15px;
+    margin: auto 1px auto 2px;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -96,9 +104,7 @@ body{
     width: fit-content;
     background-color: rgba(255, 248, 220, 0);
     border-radius: 70px;
-    margin-top: 15px;
-    margin-right: 5px;
-    margin-left: 0px;
+    margin: auto 2px auto 0px;
 }
 
 #hr-above {
